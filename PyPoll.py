@@ -51,12 +51,10 @@ with open(file_to_load) as election_data:
     #   print(headers)
     #-cc.
 
-    #xx3. Remove testing print of each row in the CSV file.
-    #   # # Print each row in the CSV file.
-    #   for row in file_reader:
-    #       print(row)
-    #   # #'
-    #-xx3.
+    # # Print each row in the CSV file.
+    for row in file_reader:
+        print(row)
+
 #
 # Using the open() function with the "w" mode we will write data to the file.
 #x1a.
