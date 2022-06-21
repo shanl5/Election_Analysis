@@ -41,18 +41,22 @@ with open(file_to_load) as election_data:
     #  ' Add the following code to (this program module) and
     #  ' run the file in the VS Code terminal.
     #  '
+
+    # Module 3.4.4 - confirm that "we skipped the header row" ...
+    #cc. Adjust comment to reflect 'removed' code...
+    #   # Read and print the header row.
+    # Comment ^^^above^^^ becomes the comment below...
+    # Read the header row.
+    headers = next(file_reader)
+    #   print(headers)
+    #-cc.
+
     #xx3. Remove testing print of each row in the CSV file.
     #   # # Print each row in the CSV file.
     #   for row in file_reader:
     #       print(row)
     #   # #'
     #-xx3.
-
-    # Module 3.4.4 - confirm that "we skipped the header row" ...
-    # Read and print the header row.
-    headers = next(file_reader)
-    print(headers)
-
 #
 # Using the open() function with the "w" mode we will write data to the file.
 #x1a.
