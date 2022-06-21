@@ -15,6 +15,9 @@ file_to_load = os.path.join("Resources","election_results.csv")
 # Create a filename variable to a direct or indirect path to the file.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
+# Module 3.5.1 (1)/(3) : Initialize a total vote counter.
+total_votes = 0
+
 # Open the election results and read the file.
 #x0a.NO LONGER USING THIS...
 #   election_data = open(file_to_load, 'r')
@@ -53,7 +56,12 @@ with open(file_to_load) as election_data:
 
     # # Print each row in the CSV file.
     for row in file_reader:
-        print(row)
+        #   print(row)
+        # Module 3.5.1 (2)/(3) : Add to the total vote count.
+        total_votes += 1
+    
+# Module 3.5.1 (3)/(3) : Print the total votes.
+print(total_votes)
 
 #
 # Using the open() function with the "w" mode we will write data to the file.
