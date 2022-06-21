@@ -18,6 +18,9 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 # Module 3.5.1 (1)/(3) : Initialize a total vote counter.
 total_votes = 0
 
+# Module 3.5.2 (1)/(4) : Declare a new list."
+candidate_options = []
+
 # Open the election results and read the file.
 #x0a.NO LONGER USING THIS...
 #   election_data = open(file_to_load, 'r')
@@ -59,10 +62,22 @@ with open(file_to_load) as election_data:
         #   print(row)
         # Module 3.5.1 (2)/(3) : Add to the total vote count.
         total_votes += 1
-    
+
+        # Module 3.5.2 (2)/(4) : Get the candidate's name (3rd column is index 2).
+        candidate_name = row[2]
+        # Module 3.5.2 (3)/(4) : .. and add the name to the list of candidates.
+        if not(candidate_name in candidate_options):
+            candidate_options.append(candidate_name)
+
 # Module 3.5.1 (3)/(3) : Print the total votes.
 print(total_votes)
 
+# Module 3.5.2 (4)/(4) : Print the list of (unique) candidate names."
+#xM3.5.2. The code for this can be made more compact, listing in a single line
+#   for i in range(len(candidate_options)):
+#       print(f"{candidate_options[i]}\n")
+#-xM3.5.2.
+print(candidate_options)
 #
 # Using the open() function with the "w" mode we will write data to the file.
 #x1a.
