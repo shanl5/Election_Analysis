@@ -88,8 +88,8 @@ image iii: ![image iii](https://github.com/shanl5/Election_Analysis/blob/main/Re
 Although the eight-pronged audit here may be accomplished using with Excel and VBA, already-learned application software from ealier module work, the challenge here is to *automate* the audit with Python by reading in a CSV text file of the election results and outputting the analysis to another text file in addition to a standard output command screen. If done successfully, this automation may be used to analyze results from other districts and elections.
 
 And with understanding that this may be the ultimate goal, the project can recommend the following ways the script may be modified to be used for other elections:
-- Add a prompt for a *location* (e.g. a computer directory, or other name of file) of a similarly formatted CSV text file that will be read in and reviewed for tallying results, rather than the fixed location of a folder called "Resources" now that holds a file that must be named "election_results.csv"
-- The "County" column variables and printing information may be changed to reflect other types of elections, e.g. Congressional District elections rather than coded as now to always report<sup>iv</sup> "County" data.
+- Add a prompt for a *location* (e.g. a computer directory, or other name of file) of a similarly formatted CSV text file that will be read in and reviewed for tallying results, rather than the fixed location of a folder called "Resources" now that holds a file that must be named "election_results.csv"<sup>image iii</sup>
+- The "County" column variables and printing information may be changed to reflect other types of elections, e.g. Congressional District elections rather than coded as now to always report<sup>image iv</sup> "County" data.
 
 image iv: ![image iv: ](https://github.com/shanl5/Election_Analysis/blob/main/Resources/analysis/Screenshot_2022-06-22_PyPoll_Challenge_pythonscript-snip-show-fixed-code.png)
 
