@@ -45,10 +45,14 @@ For Part [A]<sup>image i, image ii (below)</sup> , results show:
   - Arapahoe (county 3) had turnout of 6.7% of overall votes, or a total of 24,801 votes.
 - The highest voter turnout was for: Denver county.
 
-image i  -- The output to a terminal screen:
-<img src="/Resources/analysis/Screenshot_2022-06-22_election_results_printed-to-terminal.png" width="40%">
-image ii  -- The output as written to a text file:
-<img src="/Resources/analysis/Screenshot_2022-06-22_election_results_written-to-file.png" width="40%">
+image i
+-- The output to a terminal screen:
+
+<img src="/Resources/analysis/Screenshot_2022-06-22_election_results_print-to-terminal.png" width="40%">
+
+image ii
+-- The results printed to a text file:
+<img src="/Resources/analysis/Screenshot_2022-06-22_election_results_write-to-file.png" width="40%">
 
 For Part [B]<sup>image i, image ii (above)</sup> the inspection and analysis of the data set reveals that:
 - Three candidates received votes:
@@ -75,9 +79,9 @@ Finally, project item (5), the winner of the election, is determined by checking
 
 - Also, as per Module 3 instructions, "csv" and "os" *dependencies* are required to be imported at the beginning of the PyPoll.py file, which respectively bring in to the program CSV text file read capability; and interaction capability with the computer operating system, enabling access to features such as specifying file "`path`" and opening and writing to files. 
 
-- While it is possible to perform this analysis with the spreadsheet and programming tools encountered recently in the last couple modules, this module sets forth that exploring the strengths of another programming language introduces budding programming and analyst sensibilities to the power of the Python language to "access, process, manipulate, and store data"<sup>{The Power of Python Video from Module 3.0.1}</sup> and enables the production of repeatable code sequences to analyze speedily very large data sets.
+- While it is possible to perform this analysis with the spreadsheet and programming tools encountered recently in the last couple modules, the power of the Python language to "access, process, manipulate, and store data"<sup>{The Power of Python Video from Module 3.0.1}</sup> enables the production of repeatable code sequences to analyze speedily very large data sets. This segues into the proposed recommendation ...
 
-**Summary Recommendation**:
+### **Summary Recommendation**
 
 Although the eight-pronged audit here may be accomplished using with Excel and VBA, already-learned application software from ealier module work, the challenge here is to *automate* the audit with Python by reading in a CSV text file of the election results and outputting the analysis to another text file in addition to a standard output command screen. If done successfully, this automation may be used to analyze results from other districts and elections.
 
