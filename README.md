@@ -74,6 +74,8 @@ For project items (5), a Python "*list*" structure ("`candidate_options`" in the
 
 Finally, project item (5), the winner of the election, is determined by checking through the "`candidate_votes`" dictionary which candidate (utilizing "`candidate_name`" in the code) has the highest (compared to a default "`winning_count`" votes of zero) and highest percentage (compared to a default "`winning_percentage`" of zero) for candidate_`votes` and candidate_`vote_percentaage`.
 
+![image iii](https://github.com/shanl5/Election_Analysis/blob/main/Resources/analysis/Screenshot_2022-06-22_PyPoll_Challenge_pythonscript-snip.png)
+
 **Notes**:
 - Aside from the issues encountered in this module with learning the intricacies of the new programming language syntax and data structures -- these (yet  to be) overcome by practice! practice! practice! (and still ongoing practice) -- another more concrete problem-solution pair dealt with software setup. In      particular, the recommendation (TA office hours) was to check the box relating to Python>Terminal window in VS Code settings for "Execute in File Directory" so that opening the election_results.csv text file no longer resulted in a "FileNotFoundError" (something relating to relative versus absolute path?)
 
