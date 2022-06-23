@@ -77,7 +77,7 @@ Finally, project item (8), the winner of the election, is determined by checking
 ![image iii](https://github.com/shanl5/Election_Analysis/blob/main/Resources/analysis/Screenshot_2022-06-22_PyPoll_Challenge_pythonscript-snip.png)
 
 **Notes**:
-- Aside from the issues encountered in this module with learning the intricacies of the new programming language syntax and data structures -- these (yet  to be) overcome by practice! practice! practice! (and still ongoing practice) -- another more concrete problem-solution pair dealt with software setup. In      particular, the recommendation (TA office hours) was to check the box relating to Python>Terminal window in VS Code settings for "Execute in File Directory" so that opening the election_results.csv text file no longer resulted in a "FileNotFoundError" (something relating to relative versus absolute path?)
+- Aside from the issues encountered in this module with learning the intricacies of the new programming language syntax and data structures -- these (yet to be) overcome by practice! practice! practice! (and still ongoing practice) -- another more concrete problem-solution pair dealt with software setup. In particular, the recommendation (TA office hours) was to check the box relating to Python>Terminal window in VS Code settings for "Execute in File Directory" so that opening the election_results.csv text file no longer resulted in a "FileNotFoundError" (something relating to relative versus absolute path?)
 
 - Also, as per Module 3 instructions, "csv" and "os" *dependencies* are required to be imported at the beginning of the PyPoll.py file, which respectively bring in to the program CSV text file read capability; and interaction capability with the computer operating system, enabling access to features such as specifying file "`path`" and opening and writing to files. 
 
@@ -89,5 +89,8 @@ Although the eight-pronged audit here may be accomplished using with Excel and V
 
 And with understanding that this may be the ultimate goal, the project can recommend the following ways the script may be modified to be used for other elections:
 - Add a prompt for a *location* (e.g. a computer directory, or other name of file) of a similarly formatted CSV text file that will be read in and reviewed for tallying results, rather than the fixed location of a folder called "Resources" now that holds a file that must be named "election_results.csv"
-- The "County" column variables and printing information may be changed to reflect other types of elections, e.g. Congressional District elections rather than coded as now to always report "County" data.
+- The "County" column variables and printing information may be changed to reflect other types of elections, e.g. Congressional District elections rather than coded as now to always report<sup>iv</sup> "County" data.
+
+![image iv: ](https://github.com/shanl5/Election_Analysis/blob/main/Resources/analysis/Screenshot_2022-06-22_PyPoll_Challenge_pythonscript-snip-show-fixed-code.png)
+
 - Allow the code to determine names and order of columns from the data file itself; so, e.g., continuing with the Congressional District election example, the second column may be named "District" rather than "County," and a "Ballot ID" may be the third rather than first column, with Candidate name being perhaps in the initial (index 0) column.
